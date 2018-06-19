@@ -63,14 +63,9 @@ public class printMatrixToSpiral {
                 {
                     System.out.print(a[i][l]+" ");
                 }
-                l++;    
+                l++;
             }        
         }
     }
 
-}
-
-
-
-
-   
+}   
