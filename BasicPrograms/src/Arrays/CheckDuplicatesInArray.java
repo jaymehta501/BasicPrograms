@@ -24,7 +24,7 @@ public class CheckDuplicatesInArray {
 		
 		for (int i =0; i < numbers.length; i++){
 			
-			for (int j=0; j < numbers.length; j++){
+			for (int j= 0; j < numbers.length; j++){
 				
 				if (numbers[i] ==numbers[j] && i != j){
 					
