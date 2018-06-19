@@ -9,7 +9,7 @@ import java.util.Set;
 public class FindDuplicateChars {
 
 	public static void main(String[] args) {
-		String usrStr = "aassddffgghhjjmmnnbbvvccxxzzAAWW";
+		String usrStr = "abbcccddddeeeeeffffffggggggghhhhhhhhiiiiiiiii";
 		findDuplicateCharacter(usrStr);
 		System.out.println("/n*********************************");
 		findDuplicateWithCount(usrStr);
