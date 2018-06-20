@@ -5,10 +5,6 @@ import java.util.Scanner;
 
 public class Anagrams {
 
-	public Anagrams() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public static void main(String args[]) {
 		Scanner scannerObject = new Scanner(System.in);
 		
