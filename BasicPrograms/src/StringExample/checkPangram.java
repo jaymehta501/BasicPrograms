@@ -37,7 +37,5 @@ public class checkPangram {
 		} else {
 			System.out.println("Not Pangram.");
 		}
-		
 	}
-
 }
