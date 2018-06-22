@@ -27,7 +27,6 @@ public class intersectionOfArrays {
 			
 		}
 		
-		
 		for (int k=0; k <arr2.length; k++) {
 			
 			if(map.containsKey(arr2[k])) {
