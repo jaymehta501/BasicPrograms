@@ -13,9 +13,8 @@ public class printMatrixToSpiral {
                       {7,  8,  9,  10, 11, 12},
                       {13, 14, 15, 16, 17, 18},
                       {20, 21, 22, 23, 24, 25},
-                      {31, 32, 33, 34, 35, 36}
-                    };
-        System.out.println(a[0][2]);
+                      {31, 32, 33, 34, 35, 36}    };
+        System.out.println(a[0][2]); 
         spiralPrint(R,C,a);
     }
 	
