@@ -11,7 +11,7 @@ public class duplicateWordsInString {
 		System.out.println("****************");
 		findDuplicates("Java is java again java");
 		System.out.println("****************");
-		findDuplicates("Super Man Bat Man Spider Man");
+		findDuplicates("Super Man Bat Man Spider Man Bat");
 
 	}
 	
