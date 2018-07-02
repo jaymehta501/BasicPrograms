@@ -2,6 +2,7 @@ package LinkedList;
 
 public class detectRemoveLoop {
 	{
+	Node head = null; // preadded
 	Node slow, fast, start;
 	fast = slow = head;
 
@@ -12,7 +13,7 @@ public class detectRemoveLoop {
 	    if (fast == null || fast.next == null)
 	    {
 	        // no loop
-	        return;
+	      //  return;
 	    }
 	    else if (fast == slow || fast.next == slow)
 	    {
