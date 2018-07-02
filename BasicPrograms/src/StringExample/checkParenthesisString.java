@@ -6,7 +6,7 @@ public class checkParenthesisString {
 
 	public static void main(String[] args) {
 		
-		checkParenthesis("(");
+		checkParenthesis("((()))))");
 
 	}
 	
