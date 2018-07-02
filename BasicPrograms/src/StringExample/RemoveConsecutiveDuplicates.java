@@ -4,7 +4,7 @@ public class RemoveConsecutiveDuplicates {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String usr1 = "aaabcdeeefghiiijklllmnnn";
+		String usr1 = "aaabcdeeefghiiijkllllllmnnn";
 		int num1 = 3;
 
 		removeConsecutiveDuplicates(usr1, num1);
