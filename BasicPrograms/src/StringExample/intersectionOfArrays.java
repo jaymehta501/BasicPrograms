@@ -2,6 +2,8 @@ package StringExample;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class intersectionOfArrays {
 
@@ -16,7 +18,8 @@ public class intersectionOfArrays {
 	public static void findinterSections(int[] arr1, int[] arr2) {
 		
 		HashMap<Integer, Integer> map = new HashMap<Integer,Integer>();
-		ArrayList<Integer> list = new ArrayList<Integer>();
+		//ArrayList<Integer> list = new ArrayList<Integer>();
+		Queue<Integer> list = new LinkedList<Integer>();
 		
 		for (int i=0; i<arr1.length; i++) {
 			if(map.containsKey(arr1[i])) {

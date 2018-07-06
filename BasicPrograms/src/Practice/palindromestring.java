@@ -16,7 +16,6 @@ public class palindromestring {
 		String checkPalindrome=scannerObject.nextLine();
 		
 		String newString = "";
-
 		
 		for(int i=checkPalindrome.length() -1 ;i>=0;i--) {
 			newString=newString+checkPalindrome.charAt(i);

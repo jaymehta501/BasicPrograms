@@ -3,32 +3,26 @@ package StringExample;
 public class RemoveConsecutiveDuplicates {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String usr1 = "aaabcdeeefghiiijkllllllmnnn";
-		int num1 = 3;
+	
+	String s = "jjjjjjjjjjjjjjjjaaaaaaaaaaaaavvvvvvvvvvvvva";
+	
+	 s = s + " "; // Adding a space at the end of the word
+     int l=s.length(); // Finding the length of the word
+     String ans=""; // Variable to store the final result
+     char ch1,ch2;
 
-		removeConsecutiveDuplicates(usr1, num1);
-	}
+     for(int i=0; i<l-1; i++)
+     {
+         ch1=s.charAt(i); // Extracting the first character
+         ch2=s.charAt(i+1); // Extracting the next character
 
-	public static void removeConsecutiveDuplicates(String usr1, int num1) {
+//Adding the first extracted character to the result if the current and the next characters are different
 
-		for (int i = 0; i < usr1.length(); i++) {
-
-			char temp = usr1.charAt(i);
-
-			if (i != usr1.length() && usr1.charAt(i + 1) == temp) {
-
-				if (i != usr1.length() && usr1.charAt(i + 2) == temp) {
-
-					i = i + 2;
-				}
-
-			} else {
-
-				System.out.print(usr1.charAt(i));
-			}
-
-		}
-
-	}
+         if(ch1!=ch2)
+         {
+         ans = ans + ch1;
+         }
+     }
+     System.out.println("Word after removing repeated characters = "+ans); // Printing the result
+ }
 }
