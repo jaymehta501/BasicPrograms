@@ -32,7 +32,7 @@ public class ReverseStringWithoutSpCharacters {
 				charArr[n] = charArr[r];
 				charArr[r] = temp;
 				n++;
-				r--;				
+				r--;
 			}
 		}
 		

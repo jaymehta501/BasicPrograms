@@ -23,6 +23,6 @@ public class SmallestIntegerInSortedArray {
 		int [] arrC = {2,3,6,7};
 		System.out.println("{2,3,6,7} - " + i.find(arrC));
 		int [] arrD = {2,6,7,9};
-		System.out.println("{1,2,6,7,9} - "+ i.find(arrD));
+		System.out.println("{2,6,7,9,1} - "+ i.find(arrD));
 	}
 }
