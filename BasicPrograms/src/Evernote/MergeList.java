@@ -1,8 +1,10 @@
 package Evernote;
 
+import LinkedList.LinkedList.Node;
+
 public class MergeList {
 	
-	public ListNode mergeTwoLists(ListNode l1, ListNode l2){
+	public Node mergeTwoLists(ListNode l1, ListNode l2){
 		if(l1 == null) return l2;
 		if(l2 == null) return l1;
 		if(l1.val < l2.val){
