@@ -1,6 +1,6 @@
 package Evernote;
 
-import LinkedList.LinkedList.Node;
+/*import LinkedList.LinkedList.Node;
 
 public class MergeList {
 	
@@ -44,3 +44,4 @@ public class MergeList {
 		return h.next;
 	}
 }
+*/
