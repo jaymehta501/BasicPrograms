@@ -3,7 +3,7 @@ package StringExample;
 public class truncateString {
 
 	public static void main(String[] args) {
-		truncateStringWithNumbers("aaaaaaabbbbbcccddddddeeeefffgga");
+		truncateStringWithNumbers("aaaaaaabbbbbcccddddddeeeefffggabbbc");
 	}
 	
 	public static void truncateStringWithNumbers(String usrString) {
