@@ -11,11 +11,10 @@ public class StringOccuranceArrays {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String[] usr1 = { "wer", "wer", "tyu", "oio", "tyu" };
-		String[] usr2 = { "wer", "tyu", "uio" };
+		String[] usr1 = { "wer", "wer", "tyu", "uio", "oio", "tyu", "uio", "uio", "uio" };
+		String[] usr2 = { "uio", "hello", "wer", "tyu" };
 
 		printRepeatedCountOdEachString(usr1, usr2);
-
 	}
 
 	public static void printRepeatedCountOdEachString(String[] usr1,String[] usr2) {
