@@ -1,6 +1,7 @@
 package Blind75.Arrays;
 
-/* https://leetcode.com/problems/maximum-product-subarray/
+/**
+ *  https://leetcode.com/problems/maximum-product-subarray/
  https://www.youtube.com/watch?v=vtJvbRlHqTA
 
  Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product.
@@ -14,7 +15,8 @@ package Blind75.Arrays;
       Example 2:
       Input: nums = [-2,0,-1]
       Output: 0
-      Explanation: The result cannot be 2, because [-2,-1] is not a subarray.*/
+      Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+ */
 
 public class MaxProductSubArray {
 

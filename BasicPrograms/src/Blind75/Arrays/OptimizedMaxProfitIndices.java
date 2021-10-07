@@ -1,6 +1,8 @@
 package Blind75.Arrays;
 
-//https://www.youtube.com/watch?v=3SJ3pUkPQMc
+/**
+https://www.youtube.com/watch?v=3SJ3pUkPQMc
+*/
 
 public class OptimizedMaxProfitIndices {
 

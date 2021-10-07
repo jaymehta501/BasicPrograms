@@ -51,3 +51,6 @@ public class FirstUniqueCharacter {
 	}
 
 }
+
+
+// WAP to sort the given Strinf in the decreasing order based on the frequency of the characters
